@@ -1,24 +1,5 @@
-# hackathon-voskhod
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Olá! Bem vindo(a) à minha Branch!
+### Aqui são retratadas as mudanças feitas por mim. 
+### Um breve resumo do que foi criado:
+-Consumir a API e guardar ela em um Array <br>
+-Exibir o Array em uma table
