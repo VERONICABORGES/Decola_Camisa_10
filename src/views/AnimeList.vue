@@ -8,13 +8,14 @@
 
 <script>
 
-import AnimeTable from './components/AnimeTable'; 
+import AnimeTable from './components/AnimeTable'
 
 export default {
   name: 'ListaAnime',
-  components: {
-    AnimeTable,
-  },
+    components: {
+     
+     AnimeTable
+    },
   data() {
     return {
       animesLista: []

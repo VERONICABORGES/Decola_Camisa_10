@@ -1,17 +1,27 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
-import AnimeList from '../AnimeList.vue'
+import Inicio from '../views/Inicio.vue'
+import AnimeList from '../views/AnimeList.vue'
+import AnimeTable from '../views/AnimeTable.vue'
+
 Vue.use(VueRouter)
 
 const routes = [
-  {
-    path: '/',
-    component: Home
-  },
+  
   {
     path: '/animelist',
+    name: AnimeList,
     component: AnimeList
+  },  
+  {
+    path: '/Inicio',
+    name: Inicio,
+    component: Inicio
+  },
+  {
+    path: '/animeTable',
+    name: AnimeTable,
+    component: AnimeTable
   }
 ]
 

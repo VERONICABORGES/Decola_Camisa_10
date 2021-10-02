@@ -21,23 +21,23 @@
           v-model="group"
           active-class="green--text text--lighten-2"  
         >        
-         <!--    <router-link to= "/"> -->
+            <router-link to= "/"> 
           <v-list-item>
             <v-list-item-icon>
               <v-icon>mdi-home</v-icon>
             </v-list-item-icon>
             <v-list-item-title>Inicio</v-list-item-title>
           </v-list-item>
-        <!--   </router-link> -->
+         </router-link> 
 
-         <!--  <router-link to= "/classificacao"> -->
+          <router-link to= "/animelist"> 
           <v-list-item>
             <v-list-item-icon>
                <v-icon>mdi-pokeball</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Animes</v-list-item-title>
+            <v-list-item-title>animelist</v-list-item-title>
           </v-list-item>
-         <!--  </router-link> -->
+         </router-link> 
          <v-list-item>
             <v-list-item-icon>
               <v-icon>mdi-gamepad-variant</v-icon>
